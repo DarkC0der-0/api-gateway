@@ -56,17 +56,17 @@ This project provides an API Gateway using Node.js with Express, PostgreSQL, Doc
    kubectl apply -f kubernetes/deployment.yaml
    kubectl apply -f kubernetes/service.yaml
 
-###Usage
+### Usage
 
 - Access the API Gateway at http://localhost:3000
 - Use the /login endpoint to authenticate and receive a token.
 - Use the token in the Authorization header for subsequent requests.
 
-###Contributing
+### Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request.
 
-###License
+### License
 
 This project is licensed under the MIT License.
 
